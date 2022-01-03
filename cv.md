@@ -5,13 +5,14 @@
 ## _Student RS School stage0_  
 
 ## **Contact information:**
-**_Phone:_** +375 29 7170780  
-**_E-Mail:_** 7170780@gmail.com  
-**_Telegram:_** https://t.me/KirillProkopyshko 
++ **_Phone:_** +375 29 7170780  
++ **_E-Mail:_** 7170780@gmail.com  
++ **_Telegram:_** https://t.me/KirillProkopyshko  
++ **_Discord:_** Kirill(@Parabellum81) 
 
 
 
-## About Myself: 
+## **About Myself:** 
 
 I was born on May 19, 1981 in the city of Vitebsk. But my hometown of Orsha. Where I currently live. 
 
@@ -23,7 +24,7 @@ Further work was mainly related to sales.
 
 I have now decided to study JavaScript and become a Front End Developer.
 
-## Skills and Proficiency:
+## **Skills and Proficiency:**
 + HTML _Basic_
 + CSS _Basic_
 + Git, Github _Basic_
@@ -31,7 +32,7 @@ I have now decided to study JavaScript and become a Front End Developer.
 + VS Code _Basic_
 
 
-## Code example:
+## **Code example:**
 ```
 <style>
   .cascade {
@@ -45,11 +46,11 @@ I have now decided to study JavaScript and become a Front End Developer.
 
 <p class="cascade">Параграф с внутренними отступами в 15 пикселей и размером шрифта 25 пикселей</p>
 ```
-## Courses:
+## **Courses:**
 + JS / FRONT-END. STAGE 0 (in process)  
 ![Perfomance](./MyPerfomance.jpg "MyPerfomance")
 
-## Languages:
+## **Languages:**
 + English - A1
 + Russian - Native
 + Belorussian - Native
