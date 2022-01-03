@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  background: #3e4649;
+  padding: 20px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header nav ul li a {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.layout {
+  max-width: 1280px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background: #fff;
+}
+
+.left-side {
+  padding: 20px;
+  background: #c9c9c9;
+}
+
+.right-side {
+  padding: 20px;
+  background: #fff;
+}
+
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contacts ul {
+  list-style-type: none;
+}
+
+.contacts li {
+  padding-top: 10px;
+}
+
+.contacts li:first-child {
+  padding-top: 0px;
+}
+
+.skills li {
+  padding-top: 10px;
+}
+
+.skills li:first-child {
+  padding-top: 0px;
+}
+
+.skills ul,
+.education ol,
+.languages ul {
+  padding-left: 20px;
+}
+
+.right-side .main-content-heading {
+  text-align: center;
+}
+
+.footer {
+  background: #b9dce9;
+  padding: 10px 20px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer ul a .github-img {
+  width: 50px;
+}
+
+.footer ul a .rsschool-img {
+  width: 100px;
+}
