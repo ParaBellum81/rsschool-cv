@@ -1,5 +1,5 @@
   
-![Photo](./photo.jpg "Kirill Prokopyshko")           
+![Photo](./Photo.jpg "Kirill Prokopyshko")           
 # **_Kirill Prokopyshko_** 
 
 ## _Student RS School stage0_  
