@@ -37,3 +37,10 @@ Add some text about Myself.
 
 <p class="cascade">Параграф с внутренними отступами в 15 пикселей и размером шрифта 25 пикселей</p>
 ```
+## Courses:
++ JS / FRONT-END. STAGE 0 (in process) ![Perfomance](./MyPerfomance.jpg "MyPerfomance")
+
+## Languages:
++ English - A1
++ Russian - Native
++ Belorussian - Native
