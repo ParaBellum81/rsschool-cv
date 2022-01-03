@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kirill Prokopyshko CV</title>
+  </head>
+  <body>
+    <div class="layout">
+      <header class="header">
+        <nav>
+          <ul>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code example</a></li>
+            <li><a href="#cources">Cources</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <aside class="left-side">
+          <div class="profile">
+            <img
+              src="https://github.com/ParaBellum81/rsschool-cv/raw/rsschool-cv-html/Photo.jpg"
+              alt="my photo"
+            />
+            <h1>Kirill Prokopyshko</h1>
+            <span>Student RS School stage0</span>
+          </div>
+          <section class="contacts" id="contacts">
+            <h2>Contact information:</h2>
+            <ul>
+              <li>
+                Phone:
+                <a href="tel:+375297170780">+375 29 7170780</a>
+              </li>
+              <li>
+                Email:
+                <a href="mailto:7170780@gmail.com">7170780@gmail.com</a>
+              </li>
+              <li>
+                Telegram:
+                <a href="https://t.me/KirillProkopyshko">KirillProkopyshko</a>
+              </li>
+              <li>
+                <span>Discord: Kirill(@Parabellum81)</span>
+              </li>
+            </ul>
+          </section>
+          <section class="skills" id="skills">
+            <h2>Skills and Proficiency:</h2>
+            <ul>
+              <li>HTML Basic</li>
+              <li>CSS Basic</li>
+              <li>Git, Github Basic</li>
+              <li>Markdown Basic</li>
+              <li>VS Code Basic</li>
+            </ul>
+          </section>
+        </aside>
+        <section class="right-side">
+          <h2 class="main-content-heading">Main content</h2>
+          <section class="summary">
+            <h2>About Myself:</h2>
+            <p>
+              I was born on May 19, 1981 in the city of Vitebsk. But my hometown
+              of Orsha. Where I currently live.
+            </p>
+            <p>
+              In 1998, I graduated from high school. From 2001 to 2006, I
+              studied at the Belarussian State Agricultural Academy. I
+              successfully graduated from the Faculty of Economics and Law. I'm
+              qualified as a lawyer.
+            </p>
+            <p>
+              During my studies at the academy, I worked as a systems engineer.
+              Independently laid a local network at the enterprise. Served
+              Win2000 Server. Installed and configured the work of Kerio
+              MailServer. Further work was mainly related to sales. I have now
+              decided to study JavaScript and become a Front End Developer.
+            </p>
+          </section>
+          <section class="code-example" id="code-example">
+            <h2>Code example:</h2>
+            <pre>
+            <code>&lt;style&gt;
+            .cascade {
+                font-size: 25px;
+            }
+              
+            p {
+                padding: 15px;
+            }
+            &lt;/style&gt;
+              
+            &lt;p class="cascade"&gt;Параграф с внутренними отступами в 15 пикселей и размером шрифта 25 пикселей&lt;/p&gt;
+              </code>
+            </pre>
+          </section>
+          <section class="education">
+            <h2>Courses:</h2>
+            <ol>
+              <li>JS / FRONT-END. STAGE 0 (in process)</li>
+            </ol>
+          </section>
+          <section class="languages" id="languages">
+            <h2>Languages:</h2>
+            <ul>
+              <li>English - A1</li>
+              <li>Russian - Native</li>
+              <li>Belorussian - Native</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Projects:</h2>
+            <a href="https://parabellum81.github.io/rsschool-cv/cv"
+              >Markdown CV</a
+            >
+          </section>
+        </section>
+      </main>
+      <footer class="footer">
+        <ul>
+          <li>
+            <a href="https://github.com/ParaBellum81">
+              <img
+                class="github-img"
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt="GitHub"
+              />
+            </a>
+          </li>
+          <li id="copyright">© 2021</li>
+          <li>
+            <a href="https://rs.school/js/"
+              ><img
+                class="rsschool-img"
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="RSSchool"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>
