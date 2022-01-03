@@ -13,7 +13,7 @@
 
 ## About Myself: 
 
-
+Add some text about Myself.
 
 ## Skills and Proficiency:
 + HTML _Basic_
@@ -24,3 +24,16 @@
 
 
 ## Code example:
+```
+<style>
+  .cascade {
+    font-size: 25px;
+  }
+
+  p {
+    padding: 15px;
+  }
+</style>
+
+<p class="cascade">Параграф с внутренними отступами в 15 пикселей и размером шрифта 25 пикселей</p>
+```
